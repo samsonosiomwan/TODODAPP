@@ -99,7 +99,7 @@ function App() {
   useEffect(()=>{
     getAllTodos();
     connectWallet();
-  })
+  },[])
   return (
     <div >
       {
